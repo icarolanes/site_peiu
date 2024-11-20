@@ -3,9 +3,9 @@
 /* Padding below the footer and lighter body text */
 
 body {
-  padding-top   : 3rem;
+  padding-top: 3rem;
   padding-bottom: 3rem;
-  color         : #5a5a5a;
+  color: #5a5a5a;
 }
 
 
@@ -19,7 +19,7 @@ body {
 
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-  bottom : 3rem;
+  bottom: 3rem;
   z-index: 10;
 }
 
@@ -29,37 +29,38 @@ body {
 }
 
 .carousel-item>img {
-  position : absolute;
-  top      : 0;
-  left     : 0;
+  position: absolute;
+  top: 0;
+  left: 0;
   min-width: 100%;
-  height   : 32rem;
+  height: 32rem;
 }
 
 #carousel1 {
-  background-image     : url('img/foto (2).jpg');
-  background-repeat    : no-repeat;
+  background-image: url('img/foto (2).jpg');
+  background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size      : cover;
-  background-position  : center;
+  background-size: cover;
+  background-position: center;
+
 
 }
 
 #carousel2 {
-  background-image     : url('img/foto (5).jpg');
-  background-repeat    : no-repeat;
+  background-image: url('img/foto (5).jpg');
+  background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size      : cover;
-  background-position  : center;
+  background-size: cover;
+  background-position: center;
 
 }
 
 #carousel3 {
-  background-image     : url('img/foto (6).jpg');
-  background-repeat    : no-repeat;
+  background-image: url('img/foto (6).jpg');
+  background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size      : cover;
-  background-position  : center;
+  background-size: cover;
+  background-position: center;
 
 }
 
@@ -69,7 +70,7 @@ body {
 /* Center align the text within the three columns below the carousel */
 .marketing .col-lg-3 {
   margin-bottom: 1.5rem;
-  text-align   : center;
+  text-align: center;
 }
 
 .marketing h2 {
@@ -79,7 +80,7 @@ body {
 /* rtl:begin:ignore */
 .marketing .col-lg-3 p {
   margin-right: .75rem;
-  margin-left : .75rem;
+  margin-left: .75rem;
 }
 
 /* rtl:end:ignore */
@@ -95,8 +96,8 @@ body {
 
 /* Thin out the marketing headings */
 .featurette-heading {
-  font-weight   : 300;
-  line-height   : 1;
+  font-weight: 300;
+  line-height: 1;
   /* rtl        :remove */
   letter-spacing: -.05rem;
 }
@@ -110,8 +111,8 @@ body {
   /* Bump up size of carousel content */
   .carousel-caption p {
     margin-bottom: 1.25rem;
-    font-size    : 1.25rem;
-    line-height  : 1.4;
+    font-size: 1.25rem;
+    line-height: 1.4;
   }
 
   .featurette-heading {
